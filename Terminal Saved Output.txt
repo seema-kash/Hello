@@ -1,0 +1,68 @@
+Last login: Sat Oct 28 21:08:37 on ttys000
+seemakashyap@seemas-mbp ~ % print("hello")
+zsh: unknown file attribute: h
+seemakashyap@seemas-mbp ~ % python3
+Python 3.12.0 (v3.12.0:0fb18b02c8, Oct  2 2023, 09:45:56) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 1. Print("Hi")
+  File "<stdin>", line 1
+    1. Print("Hi")
+       ^^^^^
+SyntaxError: invalid syntax
+>>> 1. print("Hi")
+  File "<stdin>", line 1
+    1. print("Hi")
+       ^^^^^
+SyntaxError: invalid syntax
+>>> print("Hi")
+Hi
+>>> print("what's your name")
+what's your name
+>>> print("Hi")
+Hi
+>>> name = input("What's your name?")
+What's your name?
+>>> Print("It's nice to meet you,",name)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Print' is not defined. Did you mean: 'print'?
+>>> >>> Print("It's nice to meet you,",name)
+  File "<stdin>", line 1
+    >>> Print("It's nice to meet you,",name)
+    ^^
+SyntaxError: invalid syntax
+>>> answer = input("Are you enjoying the course? ")
+Are you enjoying the course? 
+>>> if answer=="yes":
+... 
+  File "<stdin>", line 2
+    
+    ^
+IndentationError: expected an indented block after 'if' statement on line 1
+>>> if answer=="yes":
+... print("that's good to hear!")
+  File "<stdin>", line 2
+    print("that's good to hear!")
+    ^
+IndentationError: expected an indented block after 'if' statement on line 1
+>>> else:
+  File "<stdin>", line 1
+    else:
+    ^^^^
+SyntaxError: invalid syntax
+>>> else : print("Oh no! That makes me sad")
+  File "<stdin>", line 1
+    else : print("Oh no! That makes me sad")
+    ^^^^
+SyntaxError: invalid syntax
+>>> Hi!
+  File "<stdin>", line 1
+    Hi!
+      ^
+SyntaxError: invalid syntax
+>>> What's your name ?
+  File "<stdin>", line 1
+    What's your name ?
+        ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> 
