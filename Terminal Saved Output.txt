@@ -1,3 +1,4 @@
+Need someone to help me start coding.
 Last login: Sat Oct 28 21:08:37 on ttys000
 seemakashyap@seemas-mbp ~ % print("hello")
 zsh: unknown file attribute: h
